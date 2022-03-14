@@ -1,0 +1,116 @@
+/* =========================================
+============ TABLE OF CONTENTS: ============
+* Style Default
+* TinyMCE
+* Header Title
+* Header Hero
+* Featured
+* Populer Courses
+* Testimonials
+* Newsletter
+* Footer
+========================================= */
+/* =================== Style Default =================== */
+li#accordion-section-MP_header h3.accordion-section-title,
+li#accordion-section-MP_header_hero h3.accordion-section-title,
+li#accordion-section-MP_featured h3.accordion-section-title,
+li#accordion-section-MP_populer_courses h3.accordion-section-title,
+li#accordion-section-MP_testimonials h3.accordion-section-title,
+li#accordion-section-MP_newsletter h3.accordion-section-title,
+li#accordion-section-MP_footer h3.accordion-section-title {
+    background: #f7fade;
+}
+#customize-controls .control-section:hover > .accordion-section-title, 
+#customize-controls .control-section .accordion-section-title:hover, 
+#customize-controls .control-section.open .accordion-section-title, 
+#customize-controls .control-section .accordion-section-title:focus {
+    color: #fff;
+    background: #135e96;
+    border-left-color: #2271b1;
+}
+.customize-control {
+    margin-bottom: 22px;
+}
+input#_customize-input-MP_icon,
+input#_customize-input-MP_title,
+input#_customize-input-header_title_top,
+input#_customize-input-featured_sub_title,
+input#_customize-input-populer_courses_sub_title,
+input#_customize-input-populer_courses_btn_txt,
+input#_customize-input-newsletter_sub_title,
+input#_customize-input-testimonials_title,
+input#_customize-input-testimonials_sub_title,
+input#_customize-input-testimonials_pesan1,
+input#_customize-input-testimonials_nama1,
+input#_customize-input-testimonials_lbelakang1,
+input#_customize-input-testimonials_company1,
+input#_customize-input-testimonials_pesan2,
+input#_customize-input-testimonials_nama2,
+input#_customize-input-testimonials_lbelakang2,
+input#_customize-input-testimonials_company2,
+input#_customize-input-testimonials_pesan3,
+input#_customize-input-testimonials_nama3,
+input#_customize-input-testimonials_lbelakang3,
+input#_customize-input-testimonials_company3 {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f8f8ff;
+    font-size: 15px;
+}
+/* =================== TinyMCE =================== */
+.tinymce-control {
+    margin-top: 5px;
+}
+li#customize-control-header_title button#header_title-html,
+li#customize-control-featured_title button#featured_title-html,
+li#customize-control-populer_courses_title button#populer_courses_title-html,
+li#customize-control-newsletter_title button#newsletter_title-html {
+    display: none;
+}
+/* =================== Header Title =================== */
+li#customize-control-header_title .wp-editor-wrap {
+    position: relative;
+    bottom: 25px;
+}
+li#customize-control-header_title {
+    margin-bottom: 10px;
+}
+/* =================== Header Hero =================== */
+/* =================== Featured =================== */
+li#customize-control-featured_title .wp-editor-wrap {
+    position: relative;
+    bottom: 25px;
+}
+li#customize-control-featured_title {
+    margin-bottom: 10px;
+}
+/* =================== Populer Courses =================== */
+li#customize-control-populer_courses_title .wp-editor-wrap {
+    position: relative;
+    bottom: 25px;
+}
+li#customize-control-populer_courses_title {
+    margin-bottom: 10px;
+}
+/* =================== Testimonials =================== */
+li#customize-control-testimonials_image1,
+li#customize-control-testimonials_image2,
+li#customize-control-testimonials_image3 {
+    margin-top: 30px;
+}
+/* =================== Newsletter =================== */
+li#customize-control-newsletter_title .wp-editor-wrap {
+    position: relative;
+    bottom: 25px;
+}
+li#customize-control-newsletter_title {
+    margin-bottom: 10px;
+}
+/* =================== Footer =================== */
+li#customize-control-footer_txt_bottom .wp-editor-wrap {
+    position: relative;
+    bottom: 25px;
+}
+li#customize-control-footer_txt_bottom {
+    margin-bottom: 10px;
+}
